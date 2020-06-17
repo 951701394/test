@@ -1,0 +1,16 @@
+.news .tab .tit ul {
+  display: flex;
+}
+
+.news .tab .tit ul li {
+  list-style: none;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.news .tab .tit ul li.active {
+  border-bottom: 2px solid #f00;
+  color: #f00;
+}

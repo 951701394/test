@@ -1,0 +1,22 @@
+.news{
+    .tab{
+        .tit{
+            ul {
+                display: flex;
+
+                li{
+                    list-style: none;
+                    width:100px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                }
+                li.active{
+                     border-bottom:2px solid #f00;
+                     color:#f00
+
+                }
+            }
+        }
+    }
+}
